@@ -1,0 +1,20 @@
+Run actions/checkout@v3
+  Syncing repository: fullstack-capstone-project
+  Getting Git version info
+  Copying '/home/runner/work/_actions/actions/checkout/v3' to '/home/runner/work/_temp/_runner'
+Run actions/setup-python@v4
+  Version: 3.10
+  Python 3.10.12 installed
+Run flake8 linting
+  flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+  0
+  flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+  0
+Run Build and Test
+  python manage.py check
+  System check identified no issues (0 silenced).
+  python manage.py test
+  Ran 3 tests in 0.045s
+  OK
+Post Run actions/checkout@v3
+Complete job: Success

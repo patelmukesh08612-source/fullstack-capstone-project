@@ -1,0 +1,26 @@
+curl -X GET http://localhost:3030/fetchReviews/dealer/15
+
+[
+  {
+    "id": 1,
+    "name": "Berkly Welldrake",
+    "dealership": 15,
+    "review": "Total grid-enabled service-desk! Great experience buying my sedan here.",
+    "purchase": true,
+    "purchase_date": "07/11/2020",
+    "car_make": "Audi",
+    "car_model": "A6",
+    "car_year": 2010
+  },
+  {
+    "id": 2,
+    "name": "Gweneth Lewndenhall",
+    "dealership": 15,
+    "review": "Awesome customer support, fast financing processing.",
+    "purchase": true,
+    "purchase_date": "09/15/2021",
+    "car_make": "Toyota",
+    "car_model": "Corolla",
+    "car_year": 2018
+  }
+]

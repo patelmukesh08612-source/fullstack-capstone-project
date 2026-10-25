@@ -1,0 +1,14 @@
+curl -X GET http://localhost:3030/fetchDealer/15
+
+{
+  "id": 15,
+  "city": "Wichita",
+  "state": "Kansas",
+  "st": "KS",
+  "address": "7200 E Kellogg Ave",
+  "zip": "67207",
+  "lat": 37.6833,
+  "long": -97.2519,
+  "short_name": "Midwest Auto Wichita",
+  "full_name": "Midwest Auto Dealership Wichita"
+}
